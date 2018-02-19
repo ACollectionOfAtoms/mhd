@@ -30,15 +30,3 @@ export default ({ data }) => {
     content={post.html}
   />);
 };
-
-export const aboutPageQuery = graphql`
-  query AboutPage($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        path
-        title
-      }
-    }
-  }
-`;
