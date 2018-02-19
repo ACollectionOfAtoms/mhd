@@ -19,7 +19,7 @@ export default class IndexPage extends React.Component {
 
   render() {
     const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+    // const { edges: posts } = data.allMarkdownRemark;
 
     return (
       <div>
@@ -41,24 +41,6 @@ export default class IndexPage extends React.Component {
             onLoad={() => this.handleScriptLoad()}
           />
           <div className="container">
-            {posts
-              .filter(post => post.node.frontmatter.templateKey === "blog-post")
-              .map(({ node: post }) => (
-                <div
-                  className="content"
-                  key={post.id}
-                >
-                  <p>
-                    <h2 className="has-text-primary" to={post.frontmatter.path}>
-                      {post.frontmatter.title}
-                    </h2>
-                  </p>
-                  <p>
-                    {post.excerpt}
-                    <br />
-                  </p>
-                </div>
-              ))}
           </div>
         </section>
       </div>
@@ -66,19 +48,19 @@ export default class IndexPage extends React.Component {
   }
 }
 
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          frontmatter {
-            title
-            templateKey
-          }
-        }
-      }
-    }
-  }
-`;
+// export const pageQuery = graphql`
+//   query IndexQuery {
+//     allMarkdownRemark {
+//       edges {
+//         node {
+//           excerpt(pruneLength: 400)
+//           id
+//           frontmatter {
+//             title
+//             templateKey
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
