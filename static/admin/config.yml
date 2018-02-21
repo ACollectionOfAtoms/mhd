@@ -7,13 +7,9 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "About Blurb"
-    label: "about blurb"
+  - name: "about"
+    label: "About"
     folder: "src/pages/about-blurb"
     create: true
-    widget: "list"
     fields: 
-      - {label: "Blurb 1", name: "blurb 1", widget: "markdown" }
-      - {label: "Blurb 2", name: "blurb 2", widget: "markdown" }
-      - {label: "Blurb 3", name: "blurb 3", widget: "markdown" }
-      - {label: "Blurb 4", name: "blurb 4", widget: "markdown" }
+      - {label: "About Section", name: "body", widget: "markdown" }
