@@ -9,23 +9,11 @@ public_folder: /img
 collections:
   - name: "About Blurb"
     label: "about blurb"
-    folder: "src/pages/about-blurbs"
+    folder: "src/pages/about-blurb"
     create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-  - label: "Pages"
-    name: "pages"
-    files:
-      - label: "About Page"
-        name: "about"
-        file: "site/content/about.yml"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Blurbs
-            name: blurbs 
-            fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Body", name: "body", widget: "markdown"}
+    widget: "list"
+    fields: 
+      - {label: "Blurb 1", name: "blurb 1", widget: "markdown" }
+      - {label: "Blurb 2", name: "blurb 2", widget: "markdown" }
+      - {label: "Blurb 3", name: "blurb 3", widget: "markdown" }
+      - {label: "Blurb 4", name: "blurb 4", widget: "markdown" }
