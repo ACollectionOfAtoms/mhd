@@ -8,8 +8,9 @@ public_folder: /img
 
 collections:
   - name: "about"
-    label: "About"
-    folder: "src/pages/about-blurb"
+    label: "About page"
+    folder: "src/pages/blog"
     create: true
-    fields: 
-      - {label: "About Section", name: "body", widget: "markdown" }
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

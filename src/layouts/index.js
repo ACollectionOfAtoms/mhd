@@ -8,8 +8,16 @@ import './all.sass';
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet title="MHD - Mental Health Directory" />
-    <Navbar />
     <div>{children()}</div>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Mental Health Directory</strong>
+          </p>
+        </div>
+      </div>
+    </footer>
   </div>
 );
 

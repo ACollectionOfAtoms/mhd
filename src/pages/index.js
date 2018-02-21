@@ -28,7 +28,9 @@ export default class IndexPage extends React.Component {
               <div className="hero-body">
                 <div className="container">
                   <h1 className="title">
-                    Welcome to the Mental Health Directory
+                    Welcome to The
+                    <br/>
+                    Mental Health Directory
                   </h1>
                   <h2 className="subtitle">
                     A site that will promote the destigmatization of mental health needs by creating relatable, compassionate mental health resources.
@@ -42,6 +44,16 @@ export default class IndexPage extends React.Component {
             onLoad={() => this.handleScriptLoad()}
           />
           <div className="container">
+            <h1> And then</h1>
+            <p> that was it</p>
+            <h1> And then</h1>
+            <p> that was it</p>
+            <h1> And then</h1>
+            <p> that was it</p>
+            <h1> And then</h1>
+            <p> that was it</p>
+            <h1> And then</h1>
+            <p> that was it</p>
           </div>
         </section>
       </div>
