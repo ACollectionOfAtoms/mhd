@@ -19,6 +19,7 @@ export default class IndexPage extends React.Component {
 
   render() {
     const { data } = this.props;
+    console.log(data);
     // const { edges: posts } = data.allMarkdownRemark;
 
     return (
@@ -48,19 +49,17 @@ export default class IndexPage extends React.Component {
   }
 }
 
-// export const pageQuery = graphql`
-//   query IndexQuery {
-//     allMarkdownRemark {
-//       edges {
-//         node {
-//           excerpt(pruneLength: 400)
-//           id
-//           frontmatter {
-//             title
-//             templateKey
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;
+export const pageQuery = graphql`
+  query IndexQuery {
+    allMarkdownRemark {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+  }
+`;

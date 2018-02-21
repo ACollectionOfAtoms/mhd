@@ -14,3 +14,18 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "Pages"
+    label: "pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "site/content/about.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Blurbs
+            name: blurbs 
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Body", name: "body", widget: "markdown"}
