@@ -11,7 +11,7 @@ Most mental health sites are daunting. They either have too much information, or
 
 # What can you expect from the MHD?
 
-The directory will be similar to a directory that you might visit to search for a place to eat nearby, or a reliable electrician. The MHD will allow you to search for a variety of mental health resources in one convenient location. The directory will also provide helpful, user-submitted reviews and feedback to accompany many of the organizations, companies or agencies that are listed. Here are just a few of the many resources that you can expect to find in the directory: 
+The MHD will be similar to a directory that you might visit to search for a place to eat nearby, or a reliable electrician. The directory will allow users to search for a variety of mental health resources in one convenient location. The directory will also provide helpful, user-submitted reviews and feedback to accompany many of the organizations, companies and agencies that are featured on the site. Here are just a few of the many resources that you can expect to find in the directory: 
 
 * hospitals
 * addiction centers
@@ -26,7 +26,5 @@ The directory will be similar to a directory that you might visit to search for 
 # How can you help?
 
 Because the MHD is still in its initial stages, the creators are open to any feedback, help or encouragement that visitors may want to offer. This is a nonprofit site being created for everyday people, by everyday people. We appreciate anything that may make the site more beneficial to future users. This could be anything from content advice, something that you hope to see in the directory, or web design and development help. If you would like to offer your knowledge, or provide advice/feedback, please email us at: <mailto:questions@mentalhealthdirectory.net>
-
-
 
 We look forward to serving you.
