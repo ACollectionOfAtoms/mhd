@@ -11,7 +11,7 @@ Most mental health sites are daunting. They either have too much information, or
 
 # What can you expect from the MHD?
 
-The MHD will be similar to a directory that you might visit to search for a place to eat nearby, or a reliable electrician. The directory will allow users to search for a variety of mental health resources in one convenient location. The directory will also provide helpful, user-submitted reviews and feedback to accompany many of the organizations, companies and agencies that are featured on the site. Here are just a few of the many resources that you can expect to find in the directory: 
+The MHD will be similar to a directory that you might visit to search for a new restaurant, or a reliable electrician. The directory will allow users to search for a variety of mental health resources in one convenient location. The directory will also provide helpful, user-submitted reviews and feedback to accompany many of the organizations, companies and agencies that are featured on the site. Here are just a few of the many resources that you can expect to find in the directory: 
 
 * hospitals
 * addiction centers
