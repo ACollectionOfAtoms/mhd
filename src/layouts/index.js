@@ -11,10 +11,10 @@ const TemplateWrapper = ({ children }) => (
     <div>{children()}</div>
     <footer className="footer">
       <div className="container">
-        <div className="content has-text-centered">
-          <h3>
-            <strong>MHD</strong>
-          </h3>
+        <div className="content">
+          <h5>
+            © 2018 <strong>MHD</strong>
+          </h5>
         </div>
       </div>
     </footer>
