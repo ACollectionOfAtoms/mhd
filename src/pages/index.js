@@ -19,16 +19,14 @@ export default class IndexPage extends React.Component {
 
   render() {
     const { data } = this.props;
-    console.log(data);
-    // const { edges: posts } = data.allMarkdownRemark;
-
+    const html = data.allMarkdownRemark.edges[0].node.html;
     return (
       <div>
           <section className="hero is-medium is-primary is-bold">
               <div className="hero-body">
                 <div className="container">
                   <h1 className="title">
-                    Welcome to The
+                    Welcome to the
                     <br/>
                     Mental Health Directory
                   </h1>
@@ -44,16 +42,10 @@ export default class IndexPage extends React.Component {
             onLoad={() => this.handleScriptLoad()}
           />
           <div className="container">
-            <h1> And then</h1>
-            <p> that was it</p>
-            <h1> And then</h1>
-            <p> that was it</p>
-            <h1> And then</h1>
-            <p> that was it</p>
-            <h1> And then</h1>
-            <p> that was it</p>
-            <h1> And then</h1>
-            <p> that was it</p>
+            <div
+              className="about-page-content"
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
           </div>
         </section>
       </div>
@@ -66,10 +58,7 @@ export const pageQuery = graphql`
     allMarkdownRemark {
       edges {
         node {
-          id
-          frontmatter {
-            title
-          }
+          html
         }
       }
     }

@@ -1,5 +1,6 @@
 ---
 title: About
+path: "/about/about"
 ---
 # What is the Mental Health Directory (MHD)?
 
