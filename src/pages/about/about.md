@@ -1,9 +1,7 @@
 ---
 title: About
 ---
-We are currently working on getting everything up and running, but please take some time to read about what you can expect from this site.
-
-Also, please take a few seconds to complete this 3 question [**survey**](https://surveynuts.com/surveys/take?id=161081&c=4300218393VPJR). The results will allow us to better cater to the community. 
+We are currently working on getting everything up and running, but please take some time to read about what you can expect from this site.Also, please take a few seconds to complete this 3 question [**survey**](https://surveynuts.com/surveys/take?id=161081&c=4300218393VPJR). The results will allow us to better cater to the community. 
 
 # What is the Mental Health Directory (MHD)?
 
