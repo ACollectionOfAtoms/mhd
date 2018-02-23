@@ -3,11 +3,7 @@ title: About
 ---
 We are currently working on getting the directory up and running. Read below to learn about what you can expect from this site. 
 
-Also, please take a few seconds to complete this quick
-
-# [**survey**](https://surveynuts.com/surveys/take?id=161081&c=4300218393VPJR)
-
-The results will allow us to better cater the directory to the needs of the community.
+Also, please take a few seconds to complete this quick [**survey**](https://surveynuts.com/surveys/take?id=161081&c=4300218393VPJR)**. **The results will allow us to better cater the directory to the needs of the community.
 
 
 
