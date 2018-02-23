@@ -1,12 +1,6 @@
 ---
 title: About
 ---
-We are currently working on getting the directory up and running. Read below to learn about what you can expect from this site. 
-
-Also, please take a few seconds to complete this quick [**survey**](https://surveynuts.com/surveys/take?id=161081&c=4300218393VPJR)**. **The results will allow us to better cater the directory to the needs of the community.
-
-
-
 # What is the Mental Health Directory (MHD)?
 
 The MHD is a one-stop database that prioritizes accessibility, ease of use and humanity. The search engine provided by the directory will be a human-screened database allowing the user to find medical help, relatable blogs, legal services, self-help centers, and more, all in one convenient location.  
