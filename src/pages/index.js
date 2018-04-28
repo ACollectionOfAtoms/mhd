@@ -1,7 +1,8 @@
 import React from "react";
-import Link from "gatsby-link";
 import Script from "react-load-script";
 import graphql from "graphql";
+
+import IntroSlide from '../components/IntroSlide';
 
 export default class IndexPage extends React.Component {
   handleScriptLoad() {
@@ -20,6 +21,7 @@ export default class IndexPage extends React.Component {
   render() {
     return (
       <div>
+        <IntroSlide />
         <Script
           url="https://identity.netlify.com/v1/netlify-identity-widget.js"
           onLoad={() => this.handleScriptLoad()}
