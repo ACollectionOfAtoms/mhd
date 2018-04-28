@@ -55,3 +55,34 @@
 .blurb h1 {
   font-weight: bold;
 }
+
+// ANIMATIONS
+.title {
+  animation: slide-from-top 0.5s normal forwards;
+}
+
+.mainContent {
+  animation: slide-from-bottom 1s normal forwards;
+}
+
+@keyframes slide-from-top {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-from-bottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

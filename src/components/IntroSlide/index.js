@@ -7,7 +7,7 @@ export default class IntroSlide extends React.Component {
   render() {
     return (
       <section className={styles.introSection}>
-        <header>
+        <header className={styles.header}>
           <h1 className={styles.title}> the mental health directory </h1>
         </header>
         <section className={styles.mainContent}>
