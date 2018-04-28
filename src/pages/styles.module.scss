@@ -1,5 +1,10 @@
 @import '../styles/colors.scss';
 
 .mainContent {
-  background-color: $color-3;
+  background-color: $white-1;
+}
+
+.mainContent > * {
+  max-width: 1440px;
+  margin: auto;
 }

@@ -1,12 +1,57 @@
 @import '../../styles/colors.scss';
+@import '../../styles/mixins.scss';
 
 .introSection {
-  height: 100vh;
-  padding-top: 45px;
+  min-height: 100vh;
+  padding: 45px 37px;
+  padding-bottom: 0;
+  color: $grey-1;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+
+  @include tablet {
+    flex-direction: row;
+
+    .introFigure {
+      flex: 1;
+    }
+
+    .blurb {
+      flex: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  @include desktop {
+    flex-direction: row;
+
+    .introFigure {
+      flex: 1;
+    }
+
+    .blurb {
+      flex: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.title,
+.blurb h1 {
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .title {
-  text-align: center;
-  text-transform: capitalize;
-  color: $color-1;
+  font-weight: 300;
+}
+
+.blurb h1 {
+  font-weight: bold;
 }
