@@ -3,9 +3,24 @@
 
 .introSection {
   min-height: 100vh;
+  // TODO make this a mixin??? DRY this up
   padding: 45px 37px;
   padding-bottom: 0;
   color: $grey-1;
+
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @include desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .mainContent {
@@ -53,7 +68,7 @@
 }
 
 .blurb h1 {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 // ANIMATIONS

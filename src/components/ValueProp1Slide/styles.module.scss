@@ -1,0 +1,33 @@
+@import '../../styles/colors.scss';
+@import '../../styles/mixins.scss';
+
+.valuePropSection {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 45px 37px;
+  padding-bottom: 0;
+  color: $grey-1;
+
+  @include tablet {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @include desktop {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.resourceList {
+  list-style-position: outside;
+
+  li {
+    margin-bottom: 0;
+  }
+}
+
