@@ -1,6 +1,17 @@
 @import '../../styles/colors.scss';
+@import '../../styles/mixins.scss';
 
 .footer {
   background-color: $color-1;
   color: $color-3;
+  font-weight: bold;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include tablet {
+    height: 400px;
+  }
 }

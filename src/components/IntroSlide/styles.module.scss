@@ -1,0 +1,12 @@
+@import '../../styles/colors.scss';
+
+.introSection {
+  height: 100vh;
+  padding-top: 45px;
+}
+
+.title {
+  text-align: center;
+  text-transform: capitalize;
+  color: $color-1;
+}

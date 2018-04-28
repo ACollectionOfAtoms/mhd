@@ -3,6 +3,7 @@ import Script from "react-load-script";
 import graphql from "graphql";
 
 import IntroSlide from '../components/IntroSlide';
+import style from './styles.module.scss';
 
 export default class IndexPage extends React.Component {
   handleScriptLoad() {
@@ -20,7 +21,7 @@ export default class IndexPage extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className={style.mainContent}>
         <IntroSlide />
         <Script
           url="https://identity.netlify.com/v1/netlify-identity-widget.js"
