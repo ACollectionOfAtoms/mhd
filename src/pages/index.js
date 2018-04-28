@@ -31,7 +31,7 @@ export default class IndexPage extends React.Component {
                     Mental Health Directory
                   </h1>
                   <h2 className="subtitle">
-                    A site that will promote the destigmatization of mental health needs by creating relatable, compassionate access to mental health resources.
+                    A site that will promote the destigmatization of mental health needs by creating relatable and compassionate access to mental health resources.
                   </h2>
                 </div>
               </div>
