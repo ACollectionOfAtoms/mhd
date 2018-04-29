@@ -1,0 +1,90 @@
+@import '../../styles/colors.scss';
+@import '../../styles/mixins.scss';
+
+.mainContent {
+  z-index: 1;
+  position: relative;
+}
+
+.valuePropSection {
+  overflow: hidden;
+  max-width: none;
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 45px 37px;
+  padding-bottom: 0;
+  color: $white-1;
+  background-color: $grey-1;
+
+  @include tablet {
+    max-width: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    .mainContent {
+      margin-left: 40px;
+    }
+  }
+
+  @include desktop {
+    max-width: none;
+    flex-direction: row;
+    justify-content: center;
+    .mainContent {
+      margin-left: 40px;
+      flex: 1.2;
+      padding: 40px;
+    }
+    .figure {
+      flex: 1;
+    }
+  }
+}
+
+.figure .computer {
+  background-image: url('../../img/computer.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+  box-shadow: 
+    0 0 0 4em #4a4d5b,
+    0 0 0 8em #4c4f60,
+    0 0 0 16em #4f5266,
+    0 0 0 24em #51556a;
+
+  &::before {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: $grey-1;
+    opacity: 0.4;
+    content: '';
+  }
+
+  @include tablet {
+    font-size: 20px;
+  }
+  @include desktop {
+    font-size: 30px;
+  }
+}
+
+.figure {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.resourceList {
+  list-style-position: outside;
+
+  li {
+    margin-bottom: 0;
+  }
+}

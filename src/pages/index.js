@@ -4,6 +4,7 @@ import graphql from "graphql";
 
 import IntroSlide from '../components/IntroSlide';
 import MakeItEasySlide from '../components/ValueProp1Slide';
+import BlackHole from '../components/ValueProp2Slide';
 import style from './styles.module.scss';
 
 export default class IndexPage extends React.Component {
@@ -25,6 +26,7 @@ export default class IndexPage extends React.Component {
       <div className={style.mainContent}>
         <IntroSlide />
         <MakeItEasySlide />
+        <BlackHole />
         <Script
           url="https://identity.netlify.com/v1/netlify-identity-widget.js"
           onLoad={() => this.handleScriptLoad()}
