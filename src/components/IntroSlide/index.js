@@ -15,7 +15,7 @@ export default class IntroSlide extends React.Component {
             <img src={introImage} />
           </figure>
           <section className={styles.blurb}>
-            <h1> Finding the Resources You Need For a Brighter Day Should’nt Be Hard </h1>
+            <h1> Finding the Resources You Need For a Brighter Day Shouldn't Be Hard </h1>
           </section>
         </section>
       </section>
