@@ -27,6 +27,25 @@
   font-weight: bold;
 }
 
+.mobileHeader {
+  @include tablet {
+    display: none;
+  }
+  @include desktop {
+    display: none;
+  }
+}
+
+.desktopHeader {
+  display: none;
+  @include tablet {
+    display: block;
+  }
+  @include desktop {
+    display: block;
+  }
+}
+
 .faceSection {
   display: flex;
   justify-content: center;
