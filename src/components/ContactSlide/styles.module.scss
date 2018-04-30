@@ -1,7 +1,7 @@
 @import '../../styles/colors.scss';
 @import '../../styles/mixins.scss';
 
-.valuePropSection {
+.contactSection {
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -23,13 +23,94 @@
   }
 }
 
-.title {
+.header {
   font-weight: bold;
 }
 
-.contactLink {
-  a {
-    color: $grey-1;
-    font-weight: bold;
+.faceSection {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  min-height: 40vh;
+  margin-bottom: 2em;
+}
+
+.leftSide,
+.rightSide {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.leftSide {
+  align-items: flex-end;
+  padding-right: 1em;
+  :nth-child(2) {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
   }
+}
+
+.rightSide {
+  align-items: flex-start;
+  :nth-child(1) {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.face {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+
+  &::before {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: $orange-1;
+    opacity: 0.5;
+    content: '';
+  }
+
+  @include tablet {
+    font-size: 20px;
+  }
+  @include desktop {
+    font-size: 20px;
+  }
+}
+
+.mainContent {
+  @include tablet {
+    padding-left: 10em;
+  }
+  @include desktop {
+    padding-left: 10em;
+  }
+}
+
+.adam {
+  background-image: url('../../img/adam.jpg');
+}
+
+.vickie {
+  background-image: url('../../img/vickie.png');
+}
+
+.michael {
+  background-image: url('../../img/michael.png');
+}
+
+.megan {
+  background-image: url('../../img/megan.png');
 }
