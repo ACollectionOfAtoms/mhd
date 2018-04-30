@@ -6,6 +6,7 @@ import IntroSlide from '../components/IntroSlide';
 import MakeItEasySlide from '../components/ValueProp1Slide';
 import BlackHole from '../components/ValueProp2Slide';
 import SurveySlide from '../components/SurveySlide';
+import ContactSlide from '../components/ContactSlide';
 import style from './styles.module.scss';
 
 export default class IndexPage extends React.Component {
@@ -29,6 +30,7 @@ export default class IndexPage extends React.Component {
                 <MakeItEasySlide />
                 <BlackHole />
                 <SurveySlide />
+                <ContactSlide />
                 <Script
                     url="https://identity.netlify.com/v1/netlify-identity-widget.js"
                     onLoad={() => this.handleScriptLoad()}
