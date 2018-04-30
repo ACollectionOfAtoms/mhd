@@ -5,7 +5,7 @@
   background-color: $grey-1;
   color: $white-1;
   font-weight: bold;
-  height: 100vh;
+  height: 30vh;
 
   display: flex;
   justify-content: center;
@@ -14,4 +14,26 @@
   @include tablet {
     height: 400px;
   }
+}
+
+.content {
+
+  @include tablet {
+    flex-basis: 40%;
+    text-align: center;
+  }
+  @include desktop {
+    flex-basis: 40%;
+    text-align: center;
+  }
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialMediaLink {
+  width: 4em;
+  height: 4em;
 }

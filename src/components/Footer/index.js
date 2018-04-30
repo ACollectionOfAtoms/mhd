@@ -1,6 +1,10 @@
 import React from 'react';
 import styles from './styles.module.scss';
 
+import twitter from '../../img/twitter.svg';
+import facebook from '../../img/facebook.svg';
+import email from '../../img/email.svg';
+
 export default class Footer extends React.Component {
     render() {
         return (
@@ -10,6 +14,16 @@ export default class Footer extends React.Component {
                         <h1>Spread the Word</h1>
                     </section>
                     <section className={styles.socialMedia}>
+                        <a className={styles.socialMediaLink}href='' target='_blank'>
+                            <img src={twitter}/>
+                        </a>
+
+                        <a className={styles.socialMediaLink}href='' target='_blank'>
+                            <img src={facebook}/>
+                        </a>
+                        <a className={styles.socialMediaLink}href='' target='_blank'>
+                            <img src={email}/>
+                        </a>
                     </section>
                 </section>
             </footer>
