@@ -64,7 +64,7 @@
 .leftSide {
   align-items: flex-end;
   padding-right: 1em;
-  :nth-child(2) {
+  div:last-child {
     display: flex;
     flex-basis: 100%;
     justify-content: center;
@@ -74,7 +74,7 @@
 
 .rightSide {
   align-items: flex-start;
-  :nth-child(1) {
+  div:first-child {
     display: flex;
     flex-basis: 100%;
     justify-content: center;
