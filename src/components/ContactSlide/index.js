@@ -12,18 +12,18 @@ export default class ValueProp1Slide extends React.Component {
                 </header>
                 <section className={styles.faceSection}>
                     <div className={styles.leftSide}>
-                        <div>
+                        <div className={styles.faceContainer}>
                             <div className={cx(styles.megan, styles.face)}></div>
                         </div>
-                        <div>
+                        <div className={styles.faceContainerBottom}>
                             <div className={cx(styles.adam, styles.face)}></div>
                         </div>
                     </div>
                     <div className={styles.rightSide}>
-                        <div>
+                        <div className={styles.faceContainerTop}>
                             <div className={cx(styles.vickie, styles.face)}></div>
                         </div>
-                        <div>
+                        <div className={styles.faceContainer}>
                             <div className={cx(styles.michael, styles.face)}></div>
                         </div>
                     </div>
