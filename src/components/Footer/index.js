@@ -19,7 +19,7 @@ export default class Footer extends React.Component {
                             <img src={twitter}/>
                         </a>
 
-                        <a className={styles.socialMediaLink}href='' target='_blank'>
+                        <a className={styles.socialMediaLink}href='https://www.facebook.com/sharer/sharer.php?u=mentalhealthdirectory.net' target='_blank'>
                             <img src={facebook}/>
                         </a>
 
