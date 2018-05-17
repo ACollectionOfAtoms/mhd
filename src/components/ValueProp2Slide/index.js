@@ -14,7 +14,7 @@ export default class ValueProp1Slide extends React.Component {
                         <h1 className={styles.title}> Let’s Eliminate the Black Hole of Google Searches </h1>
                     </header>
                     <section className={styles.blurb}>
-                        <p> The Mental Health Directory will make it easier to discover a variety of helpful resources in one organized location such as: </p>
+                        <p> The Mental Health Directory will make it easier to discover a variety of helpful resources in one organized location, such as: </p>
                         <ul className={styles.resourceList}>
                             <li>Hospitals</li>
                             <li>Addiction Centers</li>
